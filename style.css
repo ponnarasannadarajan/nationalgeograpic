@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(image/2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;  
+}
+
+.image{
+    margin: 10px;
+    width: 150px;
+    object-fit: contain;
+
+}
+.sociallinks {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.socialicon{
+    margin-left: 20px;
+}
+.fa-brands {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.fa-brands:hover{
+    color: rgb(19, 33, 129);
+}
+
+
+.search{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    
+
+}
+.search-bar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.582);
+
+}
+.fa-solid{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    right: 40px;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    height: 23px;
+    width: 17px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    color: rgb(19, 33, 129);
+
+}
+.company {
+    
+}
+.company-services{
+    position: absolute;
+    right: 0;
+    top:20px;
+    margin-right: 290px;
+    
+    }
+.item{
+    display: inline-block;
+   
+    }
+.item-services{
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+.item-services:hover{
+        color: rgb(0, 0, 0);
+        border-bottom: 3px solid rgba(24, 116, 8, 0.685);
+        
+    }
+.creative{
+    position: relative;
+    top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 120px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 10px;
+}    
+.agency{
+    color:yellow;
+    font-size: 120px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+}
+.agency-item{
+    color: rgba(255, 255, 255, 0.847);
+}
+.logo {
+        color: rgb(255, 255, 255);
+        margin-left: 67px;
+        position: relative;
+        top: 103px;
+        font-size: 37px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+.logo-item{
+    color: rgba(0, 0, 0, 0.793);
+}
+.play{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    width: 150px;
+    object-fit: contain;
+}
+.play-item {
+    position: relative;
+    left: -40px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 300;
+}
+.play-item:hover{
+    border: 1px solid rgba(148, 73, 73, 0.89);
+}
+.national{
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 40px;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    
+   
+}
+.national-item{
+    position: relative;
+    top: 100px;
+    color: rgba(255, 255, 255, 0.662);
+    font-size: 30px;
+    margin-left: 80px;
+    font-style: italic;
+    font-family: 'Teko', sans-serif;
+    float: left;
+}
+.get{
+    text-decoration: none;
+    color: rgb(42, 186, 199);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    
+}
+.get:hover{
+    border: 2px solid white;
+    color: aliceblue;
+}
